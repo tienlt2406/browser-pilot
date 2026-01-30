@@ -18,7 +18,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/framework-OpenJiuwen-orange.svg" alt="openJiuwen">
+  <img src="https://img.shields.io/badge/framework-openJiuwen-orange.svg" alt="openJiuwen">
   <img src="https://img.shields.io/badge/license-Apache%202.0-green.svg" alt="License">
 </p>
 
